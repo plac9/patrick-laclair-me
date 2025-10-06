@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Terminal window background -->
+  <rect x="2" y="2" width="28" height="28" rx="2" fill="#0a0e1a"/>
+  <rect x="2" y="2" width="28" height="28" rx="2" stroke="#00d9ff" stroke-width="1.5"/>
+
+  <!-- Terminal header bar -->
+  <rect x="2" y="2" width="28" height="6" rx="2" fill="#00d9ff"/>
+
+  <!-- Terminal dots -->
+  <circle cx="5" cy="5" r="1" fill="#0a0e1a"/>
+  <circle cx="8" cy="5" r="1" fill="#0a0e1a"/>
+  <circle cx="11" cy="5" r="1" fill="#0a0e1a"/>
+
+  <!-- Terminal prompt -->
+  <path d="M 6 13 L 10 16 L 6 19" stroke="#00ff88" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line x1="12" y1="19" x2="18" y2="19" stroke="#00ff88" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Additional terminal lines -->
+  <line x1="6" y1="23" x2="14" y2="23" stroke="#00d9ff" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+  <line x1="6" y1="26" x2="20" y2="26" stroke="#00d9ff" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+</svg>
