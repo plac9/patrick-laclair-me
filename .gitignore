@@ -22,3 +22,34 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# ============================================
+# AI Documentation (Session-Specific)
+# ============================================
+# Session notes are ephemeral, not committed
+.ai/session_notes/
+.ai/*.scratch.md
+.ai/*.tmp.md
+
+# But commit core AI docs
+!.ai/SESSION_CONTEXT.md
+!.ai/ARCHITECTURE.md
+!.ai/HANDOFF.md
+!.ai/CHANGELOG.md
+!.ai/session_brand.json
+!.ai/.gitkeep
+
+# ============================================
+# Release Artifacts
+# ============================================
+# Releases are built locally, not committed
+releases/*
+!releases/.gitkeep
+!releases/README.md
+
+# ============================================
+# Script Outputs
+# ============================================
+scripts/**/*.log
+scripts/**/output/
+scripts/**/tmp/
