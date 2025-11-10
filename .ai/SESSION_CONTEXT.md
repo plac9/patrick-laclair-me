@@ -1,95 +1,84 @@
 # patrick-laclair-me - Session Context
 
-**Last Updated**: 2025-11-09 17:35
-**Status**: Development
+**Last Updated**: 2025-11-10
+**Status**: [Development | Staging | Production | Maintenance]
 **Version**: v0.1.0
-**Brand**: LaClair Technologies
 
 ## Quick Status
 
-- **Current Phase**: Initial development
-- **Active Work**: Setting up personal portfolio website
+- **Current Phase**: Initial setup
+- **Active Work**: Documentation standardization
 - **Blockers**: None
-- **Next Steps**: Customize template with personal content
+- **Next Steps**: Complete initial implementation
 
 ## Project Overview
 
 ### Purpose
-
-Personal portfolio website for Patrick LaClair showcasing professional work, projects, and technical expertise.
+[1-2 sentence description of what this project does]
 
 ### Technology Stack
-
-- **Language**: TypeScript
-- **Framework**: React 19
-- **Build Tool**: Vite 7
-- **Styling**: CSS3
-- **Linting**: ESLint
+- **Language**: [Primary language]
+- **Framework**: [Framework if applicable]
+- **Database**: [Database if applicable]
+- **Infrastructure**: [Deployment platform]
 
 ### Repository Info
-
 - **GitHub**: https://github.com/plac9/patrick-laclair-me
-- **Brand**: LaClair Technologies
-- **Type**: Personal portfolio / professional website
+- **Brand**: [LaClair Tech | Real Time]
 
 ## Current State
 
 ### What's Working
-
-✅ React 19 + TypeScript + Vite template initialized
-✅ ESLint configured
-✅ Development server functional
-✅ Hot module replacement (HMR)
+- Repository structure standardized
+- Documentation framework in place
 
 ### Known Issues
-
-- Template content needs customization with personal information
-- Design and layout need implementation
-- Portfolio projects need to be added
+- [ ] Initial templates need customization
+- [ ] Project-specific documentation needed
 
 ### Recent Changes
+- **2025-11-10**: Implemented standard documentation structure
 
-- **2025-11-09**: Documentation standardization applied
-- Created from Vite React-TypeScript template
+## Key Files & Locations
+
+### Documentation
+- **Session Context**: `.ai/SESSION_CONTEXT.md` (this file)
+- **Architecture**: `.ai/ARCHITECTURE.md`
+- **Troubleshooting**: `docs/TROUBLESHOOTING.md`
+- **Deployment**: `docs/DEPLOYMENT.md`
+
+### Scripts
+- **Development**: `scripts/dev/`
+- **Deployment**: `scripts/deploy/`
+- **Troubleshooting**: `scripts/troubleshoot/`
 
 ## Development Workflow
 
 ### Setup (First Time)
-
 ```bash
-# Clone repository
-git clone https://github.com/plac9/patrick-laclair-me.git
-cd patrick-laclair-me
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
+# Setup commands to be added
 ```
 
 ### Common Tasks
-
 ```bash
-# Development server (http://localhost:5173)
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
-
-# Lint code
-npm run lint
+# Common development tasks to be added
 ```
+
+## Deployment
+
+### Environments
+- **Development**: Local development
+- **Staging**: [To be configured]
+- **Production**: [To be configured]
 
 ## Resources
 
-- Part of LaClair Technologies portfolio
-- React 19 documentation: https://react.dev
-- Vite documentation: https://vitejs.dev
+### Documentation
+- See `docs/README.md` for complete documentation index
+
+### Related Projects
+- Part of [LaClair Tech | Real Time] project portfolio
 
 ---
 
-**Note**: Customize this template with personal content and portfolio projects.
+**Note**: This file provides AI session context. Update regularly to keep agents informed.
