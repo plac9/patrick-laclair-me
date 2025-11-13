@@ -77,10 +77,11 @@ export function Terminal() {
         addLog('info', '  Website: https://laclairtech.com');
         break;
 
-      case 'uptime':
+      case 'uptime': {
         const uptime = Math.floor((Date.now() - performance.now()) / 1000);
         addLog('success', `System uptime: ${Math.floor(uptime / 3600)}h ${Math.floor((uptime % 3600) / 60)}m ${uptime % 60}s`);
         break;
+      }
 
       case 'status':
         addLog('success', 'Service Status:');
